@@ -51,6 +51,8 @@ The project requires the following configuration:
 -   Port: The application runs on port 3000 by default. You can change this by modifying the PORT variable in the .env file.
 
 -   JWT Secret Key: Set a strong secret key for encrypting and decrypting JWTs. Update the JWT_SECRET_KEY variable in the .env file with your secret key.
+  
+-   Open the request.rest file and call the API from there (if you decide to use this then enable REST client in your text editor) or use any preferred mode of usage.
 
 ## Technologies Used
 
