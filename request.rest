@@ -1,0 +1,37 @@
+# Get all users
+GET http://localhost:3000/auth/user/get-users
+###
+
+# Sign up a new user
+POST http://localhost:3000/auth/user/signup 
+Content-Type: application/json
+
+{
+  "name": "Kyle",
+  "password": "password",
+  "email": "email@example.com"
+}
+###
+
+# Log in a user
+POST http://localhost:3000/auth/user/login 
+Content-Type: application/json
+
+{
+  "email": "email@example.com",
+  "password": "password"
+}
+###
+
+# Add a product
+POST http://localhost:3000/api/user/add-product
+Content-Type: application/json
+# Authorization: Enter the encrypted id from clients.json
+Authorization:eyJhbGciOiJIUzI1NiJ9.ZW1haWxAZXhhbXBsZS5jb20.Rco9CfOZ5Ie5_jgSk_faqgSZJD0SHGKbYDGtHyle24s
+
+{
+    "title" : "A song of Ice and Fire",
+    "author" : "George R R Martin",
+    "price" :"$ 13.99",
+    "genre" : "Medieval Fantasy"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "tokenized-auth-system",
+    "version": "1.0.0",
+    "description": "A backend service to authenticate user using stateless authentication pattern. In this service I've used bcrypt for encryprting the password and jsonwebtoken to help with statless authentcation.",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "author": "Mudassir Quraishi",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "dotenv": "^16.4.2",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "winston": "^3.11.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    }
+}

@@ -1,0 +1,19 @@
+# .gitignore
+
+# Ignore environment-specific files
+.env
+
+# Ignore Node.js modules
+node_modules
+
+# Ignore client authentication tokens
+client.json
+
+# Ignore npm package lock file
+package-lock.json
+
+# Ignore product data file
+products.json
+
+# Ignore user data file
+users.json
