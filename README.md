@@ -42,7 +42,7 @@
 
 ## Endpoints
 
-Checkout the [API_DOCUMENTATION]() to know more about the endpoints
+Checkout the [API_DOCUMENTATION](https://documenter.getpostman.com/view/28397772/2sA2r3aSEM) to know more about the endpoints
 
 ## Configuration
 
