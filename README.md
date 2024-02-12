@@ -1,4 +1,3 @@
-````markdown
 # Stateless User Authentication using jsonwebtoken
 
 ## Table of Contents
@@ -17,7 +16,6 @@
     git clone https://github.com/MudassirQuraishi/tokenized-auth-system.git
     cd tokenized-auth-system
     ```
-````
 
 2. **Install dependencies:**
 
@@ -66,7 +64,3 @@ List the technologies and frameworks used in your project.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-```
-
-```
